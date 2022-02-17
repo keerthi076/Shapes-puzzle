@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head><title>script</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Philosopher&display=swap" rel="stylesheet">
+
+	<script src="shapesnew.js"></script>
+</head>
+<body>
+	<div class="container">
+	<div  style="margin-left:px"class="details">
+		<p>Name: Keerthika k</p>
+		<p>College: ACGCET,Karaikudi</p>
+		<p>DEPT: ECE</p>
+		<p>Email: kkeerthika076@gmail.com</p>
+		<p>phone: 9360206926</p>
+	</div>
+	<div class="operation" style="text-align:center">
+
+	<div id="header">	
+  
+		<span style="margin-left:px"> Enter No.of shapes to be printed:<input    id="total" type="text"><button onclick="output()" id="output">+</button></span>
+		<a  id="count"></a></span>
+			
+</div>
+		
+
+		</div>
+			<div>
+
+			<div id="display" style="display:block;">
+				
+			</div>
+		</div>
+	<div id="modal" style="display:none">
+		
+		<p>How many <span id="color"></span> color <span id="shapes"></span> were there?</p>
+
+		<input type="text" id="answer">
+		<span id="tick"><button>ok</button></span>
+
+	</div>
+<p id="result"></p>
+<p id="final" style="display:none">Your score is:<span id="userscore"></span></p>
+</div>
+<style>
+	.container{
+		width:100%;
+		text-align:center;
+		
+	}
+   #modal{
+   	margin:auto;
+   	display: flex;
+align-items:center;
+   	margin-left:px;
+   	text-align:center;
+   	border-style:solid;
+max-width:500px;
+height:110px;
+   }
+   #result{
+   	text-align:center;
+   	font-weight:bold;
+   	text-transform:capitalize;
+   	font-size:25px;
+   	
+   	
+   }
+   #final{
+   	text-align:center;
+   }
+	#count{
+		margin-right:10px;
+		float:right;
+		
+	
+		font-weight:bold;
+	}
+	#header{
+		background-color:#B3FA63;
+		height:50px;padding-top:20px;
+	}
+	input[type=text]{
+		border-radius:5px;
+		width:50px;
+		height:17px;
+	}
+	select{
+		border-radius:5px;
+		height:25px;
+	}
+	#total{
+		border-style:solid;
+		width:10px;
+		border-width:1px;
+		background-color:white;
+		border-radius:5px;
+		padding-right:25px;
+		padding-left:25px;
+	}
+	.squareimggreen{
+		filter:hue-rotate(90deg);
+	}
+	.squareimgblue{
+		filter:hue-rotate(210deg);
+	}
+	#display{
+		
+		max-width:1000px;
+		height:50%;
+		max-height:1000px;
+		width:100%;
+		margin:auto;
+		margin-left:px;
+		margin-right:px;
+		float:;
+		display:flex;
+	}
+	body{
+		font-family:'Acme',sans-serif;
+		font-family:'philosopher',sans-serif;
+		font-size:20px;
+	}
+	img{
+		text-align:center;
+		margin:20px;
+
+		max-width:100px;
+		width:100%;
+
+	}
+	.details{
+		font-size:16px;
+	}
+	#counts{
+		margin:15px;
+		
+		float:right;
+		margin-right:250px;
+		border-style:;
+		border-width:0.1px;
+		padding-right:25px;
+		width:160px;
+		border:none;
+		
+		
+	}
+	.operation{
+		text-align:;
+	}
+	#square{
+		margin-right:200px;
+	}
+	#rectangle,#circle,#oval{
+		margin-right:200px;
+	}
+	#avai{
+		font-weight:bold;
+		font-size:21px;
+	}
